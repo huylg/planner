@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001AE8F022EE952100C47381 /* AddNewBucketDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AE8EF22EE952100C47381 /* AddNewBucketDetailViewController.m */; };
+		001AE8F822EE970000C47381 /* AddNewBucketDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001AE8F722EE970000C47381 /* AddNewBucketDetailViewController.xib */; };
+		001B7B4A22DC80E700894362 /* PlanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001B7B4922DC80E700894362 /* PlanTableViewCell.xib */; };
+		001E8D5022E6AFD900F0829A /* BucketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E8D4F22E6AFD900F0829A /* BucketViewController.m */; };
+		001E8D5322E6AFE700F0829A /* AddNewBucketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E8D5222E6AFE700F0829A /* AddNewBucketViewController.m */; };
+		001E8D5622E6B0B800F0829A /* BucketPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E8D5522E6B0B800F0829A /* BucketPageViewController.m */; };
+		001E8D5922E6B17600F0829A /* Bucket.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E8D5822E6B17600F0829A /* Bucket.m */; };
+		001E8D5C22E6C01B00F0829A /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 001E8D5B22E6C01B00F0829A /* FirebaseManager.m */; };
+		001F95FB22D7220C0036F1FA /* Plan.m in Sources */ = {isa = PBXBuildFile; fileRef = 001F95FA22D7220C0036F1FA /* Plan.m */; };
+		001F95FE22D72B7F0036F1FA /* PlantableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 001F95FD22D72B7F0036F1FA /* PlantableViewCell.m */; };
+		0020691022D437D9007E625F /* PrivacyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020690F22D437D9007E625F /* PrivacyTableViewController.m */; };
+		0020F92F22D5A71400305EFF /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020F92E22D5A71400305EFF /* Task.m */; };
+		0020F93222D5C07E00305EFF /* TaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0020F93122D5C07E00305EFF /* TaskTableViewCell.m */; };
+		0021021022F01F980089C2A0 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 0021020F22F01F980089C2A0 /* Member.m */; };
+		002590BA22DD73F4008F1A55 /* PlanListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002590B822DD73F4008F1A55 /* PlanListTableViewController.m */; };
+		002590C322DD7EDE008F1A55 /* PlanListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 002590C222DD7EDE008F1A55 /* PlanListTableViewCell.m */; };
+		00358B5D22D2DF1D00BA27B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00358B5C22D2DF1D00BA27B8 /* AppDelegate.m */; };
+		00358B6322D2DF1D00BA27B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00358B6122D2DF1D00BA27B8 /* Main.storyboard */; };
+		00358B6522D2DF1E00BA27B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00358B6422D2DF1E00BA27B8 /* Assets.xcassets */; };
+		00358B6822D2DF1E00BA27B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00358B6622D2DF1E00BA27B8 /* LaunchScreen.storyboard */; };
+		00358B6B22D2DF1E00BA27B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00358B6A22D2DF1E00BA27B8 /* main.m */; };
+		00358B7322D2DFDC00BA27B8 /* TaskPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00358B7222D2DFDC00BA27B8 /* TaskPageViewController.m */; };
+		00358B7C22D2E46400BA27B8 /* TaskSubPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00358B7B22D2E46400BA27B8 /* TaskSubPageView.m */; };
+		00358B7F22D314CA00BA27B8 /* TabBarControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00358B7E22D314CA00BA27B8 /* TabBarControllerViewController.m */; };
+		00358B8222D3243900BA27B8 /* AddNewPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00358B8122D3243900BA27B8 /* AddNewPlanViewController.m */; };
+		00358B8522D3246500BA27B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00358B8422D3246500BA27B8 /* ViewController.m */; };
+		0055E23D22D451CD0072B2DD /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055E23C22D451CD0072B2DD /* DescriptionViewController.m */; };
+		0055E23F22D479340072B2DD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0055E23E22D479330072B2DD /* GoogleService-Info.plist */; };
+		2648FEF6F5656FB3FC7A4231 /* Pods_Planner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DCD5FEEACECFA9E9C91511 /* Pods_Planner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001AE8EE22EE952100C47381 /* AddNewBucketDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddNewBucketDetailViewController.h; sourceTree = "<group>"; };
+		001AE8EF22EE952100C47381 /* AddNewBucketDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddNewBucketDetailViewController.m; sourceTree = "<group>"; };
+		001AE8F722EE970000C47381 /* AddNewBucketDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewBucketDetailViewController.xib; sourceTree = "<group>"; };
+		001B7B4922DC80E700894362 /* PlanTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanTableViewCell.xib; sourceTree = "<group>"; };
+		001E8D4E22E6AFD900F0829A /* BucketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BucketViewController.h; sourceTree = "<group>"; };
+		001E8D4F22E6AFD900F0829A /* BucketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BucketViewController.m; sourceTree = "<group>"; };
+		001E8D5122E6AFE700F0829A /* AddNewBucketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddNewBucketViewController.h; sourceTree = "<group>"; };
+		001E8D5222E6AFE700F0829A /* AddNewBucketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddNewBucketViewController.m; sourceTree = "<group>"; };
+		001E8D5422E6B0B800F0829A /* BucketPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BucketPageViewController.h; sourceTree = "<group>"; };
+		001E8D5522E6B0B800F0829A /* BucketPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BucketPageViewController.m; sourceTree = "<group>"; };
+		001E8D5722E6B17600F0829A /* Bucket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bucket.h; sourceTree = "<group>"; };
+		001E8D5822E6B17600F0829A /* Bucket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bucket.m; sourceTree = "<group>"; };
+		001E8D5A22E6C01B00F0829A /* FirebaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseManager.h; sourceTree = "<group>"; };
+		001E8D5B22E6C01B00F0829A /* FirebaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirebaseManager.m; sourceTree = "<group>"; };
+		001F95F922D7220C0036F1FA /* Plan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plan.h; sourceTree = "<group>"; };
+		001F95FA22D7220C0036F1FA /* Plan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plan.m; sourceTree = "<group>"; };
+		001F95FC22D72B7F0036F1FA /* PlantableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlantableViewCell.h; sourceTree = "<group>"; };
+		001F95FD22D72B7F0036F1FA /* PlantableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlantableViewCell.m; sourceTree = "<group>"; };
+		0020690E22D437D9007E625F /* PrivacyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivacyTableViewController.h; sourceTree = "<group>"; };
+		0020690F22D437D9007E625F /* PrivacyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivacyTableViewController.m; sourceTree = "<group>"; };
+		0020F92D22D5A71400305EFF /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		0020F92E22D5A71400305EFF /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		0020F93022D5C07E00305EFF /* TaskTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskTableViewCell.h; sourceTree = "<group>"; };
+		0020F93122D5C07E00305EFF /* TaskTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewCell.m; sourceTree = "<group>"; };
+		0021020E22F01F980089C2A0 /* Member.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		0021020F22F01F980089C2A0 /* Member.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		002590B722DD73F4008F1A55 /* PlanListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanListTableViewController.h; sourceTree = "<group>"; };
+		002590B822DD73F4008F1A55 /* PlanListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanListTableViewController.m; sourceTree = "<group>"; };
+		002590C122DD7EDE008F1A55 /* PlanListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlanListTableViewCell.h; sourceTree = "<group>"; };
+		002590C222DD7EDE008F1A55 /* PlanListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanListTableViewCell.m; sourceTree = "<group>"; };
+		00358B5822D2DF1D00BA27B8 /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00358B5B22D2DF1D00BA27B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00358B5C22D2DF1D00BA27B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00358B6222D2DF1D00BA27B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00358B6422D2DF1E00BA27B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00358B6722D2DF1E00BA27B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00358B6922D2DF1E00BA27B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00358B6A22D2DF1E00BA27B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00358B7122D2DFDC00BA27B8 /* TaskPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskPageViewController.h; sourceTree = "<group>"; };
+		00358B7222D2DFDC00BA27B8 /* TaskPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskPageViewController.m; sourceTree = "<group>"; };
+		00358B7A22D2E46400BA27B8 /* TaskSubPageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskSubPageView.h; sourceTree = "<group>"; };
+		00358B7B22D2E46400BA27B8 /* TaskSubPageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskSubPageView.m; sourceTree = "<group>"; };
+		00358B7D22D314CA00BA27B8 /* TabBarControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarControllerViewController.h; sourceTree = "<group>"; };
+		00358B7E22D314CA00BA27B8 /* TabBarControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerViewController.m; sourceTree = "<group>"; };
+		00358B8022D3243900BA27B8 /* AddNewPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewPlanViewController.h; sourceTree = "<group>"; };
+		00358B8122D3243900BA27B8 /* AddNewPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewPlanViewController.m; sourceTree = "<group>"; };
+		00358B8322D3246500BA27B8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00358B8422D3246500BA27B8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0055E23B22D451CD0072B2DD /* DescriptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		0055E23C22D451CD0072B2DD /* DescriptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		0055E23E22D479330072B2DD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		38DCD5FEEACECFA9E9C91511 /* Pods_Planner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607E812C0ACBC6B383186C9E /* Pods-Planner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planner.debug.xcconfig"; path = "Target Support Files/Pods-Planner/Pods-Planner.debug.xcconfig"; sourceTree = "<group>"; };
+		8DDFFBEF7AB20A6239A2BF86 /* Pods-Planner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planner.release.xcconfig"; path = "Target Support Files/Pods-Planner/Pods-Planner.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00358B5522D2DF1D00BA27B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2648FEF6F5656FB3FC7A4231 /* Pods_Planner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001AE8EB22EE922100C47381 /* Viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				001AE8EE22EE952100C47381 /* AddNewBucketDetailViewController.h */,
+				001E8D5122E6AFE700F0829A /* AddNewBucketViewController.h */,
+				00358B8022D3243900BA27B8 /* AddNewPlanViewController.h */,
+				00358B5B22D2DF1D00BA27B8 /* AppDelegate.h */,
+				001E8D5422E6B0B800F0829A /* BucketPageViewController.h */,
+				001E8D4E22E6AFD900F0829A /* BucketViewController.h */,
+				0055E23B22D451CD0072B2DD /* DescriptionViewController.h */,
+				002590C122DD7EDE008F1A55 /* PlanListTableViewCell.h */,
+				002590B722DD73F4008F1A55 /* PlanListTableViewController.h */,
+				001F95FC22D72B7F0036F1FA /* PlantableViewCell.h */,
+				0020690E22D437D9007E625F /* PrivacyTableViewController.h */,
+				00358B7D22D314CA00BA27B8 /* TabBarControllerViewController.h */,
+				00358B7122D2DFDC00BA27B8 /* TaskPageViewController.h */,
+				00358B7A22D2E46400BA27B8 /* TaskSubPageView.h */,
+				0020F93022D5C07E00305EFF /* TaskTableViewCell.h */,
+				00358B8322D3246500BA27B8 /* ViewController.h */,
+				001AE8EF22EE952100C47381 /* AddNewBucketDetailViewController.m */,
+				001E8D5222E6AFE700F0829A /* AddNewBucketViewController.m */,
+				00358B8122D3243900BA27B8 /* AddNewPlanViewController.m */,
+				001E8D5522E6B0B800F0829A /* BucketPageViewController.m */,
+				001E8D4F22E6AFD900F0829A /* BucketViewController.m */,
+				0055E23C22D451CD0072B2DD /* DescriptionViewController.m */,
+				002590C222DD7EDE008F1A55 /* PlanListTableViewCell.m */,
+				002590B822DD73F4008F1A55 /* PlanListTableViewController.m */,
+				001F95FD22D72B7F0036F1FA /* PlantableViewCell.m */,
+				0020690F22D437D9007E625F /* PrivacyTableViewController.m */,
+				00358B7E22D314CA00BA27B8 /* TabBarControllerViewController.m */,
+				00358B7222D2DFDC00BA27B8 /* TaskPageViewController.m */,
+				00358B7B22D2E46400BA27B8 /* TaskSubPageView.m */,
+				0020F93122D5C07E00305EFF /* TaskTableViewCell.m */,
+				00358B8422D3246500BA27B8 /* ViewController.m */,
+			);
+			path = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		001AE8EC22EE927D00C47381 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				001B7B4922DC80E700894362 /* PlanTableViewCell.xib */,
+				00358B6622D2DF1E00BA27B8 /* LaunchScreen.storyboard */,
+				00358B6122D2DF1D00BA27B8 /* Main.storyboard */,
+				001AE8F722EE970000C47381 /* AddNewBucketDetailViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		001AE8ED22EE929900C47381 /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				001E8D5A22E6C01B00F0829A /* FirebaseManager.h */,
+				001E8D5B22E6C01B00F0829A /* FirebaseManager.m */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		0021020D22F01F530089C2A0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				001E8D5722E6B17600F0829A /* Bucket.h */,
+				0021020E22F01F980089C2A0 /* Member.h */,
+				001F95F922D7220C0036F1FA /* Plan.h */,
+				0020F92D22D5A71400305EFF /* Task.h */,
+				001E8D5822E6B17600F0829A /* Bucket.m */,
+				0021020F22F01F980089C2A0 /* Member.m */,
+				001F95FA22D7220C0036F1FA /* Plan.m */,
+				0020F92E22D5A71400305EFF /* Task.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00358B4F22D2DF1D00BA27B8 = {
+			isa = PBXGroup;
+			children = (
+				0021020D22F01F530089C2A0 /* Classes */,
+				001AE8ED22EE929900C47381 /* FirebaseManager */,
+				001AE8EC22EE927D00C47381 /* Views */,
+				001AE8EB22EE922100C47381 /* Viewcontroller */,
+				00358B5A22D2DF1D00BA27B8 /* Planner */,
+				00358B5922D2DF1D00BA27B8 /* Products */,
+				BB821D96C2A345D2D026F779 /* Pods */,
+				4B8DD156817C6EA94B31D34A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00358B5922D2DF1D00BA27B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00358B5822D2DF1D00BA27B8 /* Planner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00358B5A22D2DF1D00BA27B8 /* Planner */ = {
+			isa = PBXGroup;
+			children = (
+				00358B6A22D2DF1E00BA27B8 /* main.m */,
+				00358B5C22D2DF1D00BA27B8 /* AppDelegate.m */,
+				0055E23E22D479330072B2DD /* GoogleService-Info.plist */,
+				00358B6922D2DF1E00BA27B8 /* Info.plist */,
+				00358B6422D2DF1E00BA27B8 /* Assets.xcassets */,
+			);
+			path = Planner;
+			sourceTree = "<group>";
+		};
+		4B8DD156817C6EA94B31D34A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38DCD5FEEACECFA9E9C91511 /* Pods_Planner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB821D96C2A345D2D026F779 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				607E812C0ACBC6B383186C9E /* Pods-Planner.debug.xcconfig */,
+				8DDFFBEF7AB20A6239A2BF86 /* Pods-Planner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00358B5722D2DF1D00BA27B8 /* Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00358B6E22D2DF1E00BA27B8 /* Build configuration list for PBXNativeTarget "Planner" */;
+			buildPhases = (
+				6FC92D20EB010A9A84277D5D /* [CP] Check Pods Manifest.lock */,
+				00358B5422D2DF1D00BA27B8 /* Sources */,
+				00358B5522D2DF1D00BA27B8 /* Frameworks */,
+				00358B5622D2DF1D00BA27B8 /* Resources */,
+				C559901520C934736FBD7370 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planner;
+			productName = Planner;
+			productReference = 00358B5822D2DF1D00BA27B8 /* Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00358B5022D2DF1D00BA27B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = HuyLG;
+				TargetAttributes = {
+					00358B5722D2DF1D00BA27B8 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 00358B5322D2DF1D00BA27B8 /* Build configuration list for PBXProject "Planner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00358B4F22D2DF1D00BA27B8;
+			productRefGroup = 00358B5922D2DF1D00BA27B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00358B5722D2DF1D00BA27B8 /* Planner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00358B5622D2DF1D00BA27B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001B7B4A22DC80E700894362 /* PlanTableViewCell.xib in Resources */,
+				00358B6822D2DF1E00BA27B8 /* LaunchScreen.storyboard in Resources */,
+				001AE8F822EE970000C47381 /* AddNewBucketDetailViewController.xib in Resources */,
+				00358B6522D2DF1E00BA27B8 /* Assets.xcassets in Resources */,
+				00358B6322D2DF1D00BA27B8 /* Main.storyboard in Resources */,
+				0055E23F22D479340072B2DD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FC92D20EB010A9A84277D5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Planner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C559901520C934736FBD7370 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planner/Pods-Planner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planner/Pods-Planner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Planner/Pods-Planner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00358B5422D2DF1D00BA27B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0020F92F22D5A71400305EFF /* Task.m in Sources */,
+				00358B8522D3246500BA27B8 /* ViewController.m in Sources */,
+				001E8D5322E6AFE700F0829A /* AddNewBucketViewController.m in Sources */,
+				0020F93222D5C07E00305EFF /* TaskTableViewCell.m in Sources */,
+				00358B6B22D2DF1E00BA27B8 /* main.m in Sources */,
+				001F95FB22D7220C0036F1FA /* Plan.m in Sources */,
+				00358B7C22D2E46400BA27B8 /* TaskSubPageView.m in Sources */,
+				00358B8222D3243900BA27B8 /* AddNewPlanViewController.m in Sources */,
+				0020691022D437D9007E625F /* PrivacyTableViewController.m in Sources */,
+				00358B7322D2DFDC00BA27B8 /* TaskPageViewController.m in Sources */,
+				00358B5D22D2DF1D00BA27B8 /* AppDelegate.m in Sources */,
+				0021021022F01F980089C2A0 /* Member.m in Sources */,
+				001AE8F022EE952100C47381 /* AddNewBucketDetailViewController.m in Sources */,
+				001E8D5622E6B0B800F0829A /* BucketPageViewController.m in Sources */,
+				001E8D5C22E6C01B00F0829A /* FirebaseManager.m in Sources */,
+				002590BA22DD73F4008F1A55 /* PlanListTableViewController.m in Sources */,
+				00358B7F22D314CA00BA27B8 /* TabBarControllerViewController.m in Sources */,
+				001E8D5922E6B17600F0829A /* Bucket.m in Sources */,
+				001F95FE22D72B7F0036F1FA /* PlantableViewCell.m in Sources */,
+				002590C322DD7EDE008F1A55 /* PlanListTableViewCell.m in Sources */,
+				001E8D5022E6AFD900F0829A /* BucketViewController.m in Sources */,
+				0055E23D22D451CD0072B2DD /* DescriptionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00358B6122D2DF1D00BA27B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00358B6222D2DF1D00BA27B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00358B6622D2DF1E00BA27B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00358B6722D2DF1E00BA27B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00358B6C22D2DF1E00BA27B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00358B6D22D2DF1E00BA27B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00358B6F22D2DF1E00BA27B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607E812C0ACBC6B383186C9E /* Pods-Planner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD5TXCHUQ3;
+				INFOPLIST_FILE = Planner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Huy-Ly.Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00358B7022D2DF1E00BA27B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDFFBEF7AB20A6239A2BF86 /* Pods-Planner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD5TXCHUQ3;
+				INFOPLIST_FILE = Planner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Huy-Ly.Planner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00358B5322D2DF1D00BA27B8 /* Build configuration list for PBXProject "Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00358B6C22D2DF1E00BA27B8 /* Debug */,
+				00358B6D22D2DF1E00BA27B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00358B6E22D2DF1E00BA27B8 /* Build configuration list for PBXNativeTarget "Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00358B6F22D2DF1E00BA27B8 /* Debug */,
+				00358B7022D2DF1E00BA27B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00358B5022D2DF1D00BA27B8 /* Project object */;
+}
