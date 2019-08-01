@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1055087119455-o0u6dg72m56h1hhi3f2fr3kt3qa280v6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1055087119455-o0u6dg72m56h1hhi3f2fr3kt3qa280v6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCvdcU9ryvkHrRDRn4H6iLnW1Dq3b62Jso</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1055087119455</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Planner.Planner</string>
+	<key>PROJECT_ID</key>
+	<string>planner-6f2c8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>planner-6f2c8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1055087119455:ios:d50808a300c66e4d</string>
+	<key>DATABASE_URL</key>
+	<string>https://planner-6f2c8.firebaseio.com</string>
+</dict>
+</plist>
